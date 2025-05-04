@@ -44,7 +44,5 @@ function DeleteTask(index)
 }
 
 flatpickr("#datepicker", {
-    dateFormat: "Y-m-d", // Customize format as needed
-    altInput: true,
-    altFormat: "F j, Y"
+    disableMobile: true
   });
